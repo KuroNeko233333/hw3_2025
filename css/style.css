@@ -63,11 +63,11 @@ nav a:focus {
 .contact       { grid-column: 2 / span 3; grid-row: 6; z-index: 2; }
 
 
-.accounts-image      { grid-column: 1 / -1; grid-row: 2; max-height: 600px; overflow: hidden; }
-.onlinebanking-image { grid-column: 1 / -1; grid-row: 3; max-height: 600px; overflow: hidden; }
-.security-image      { grid-column: 1 / -1; grid-row: 4; max-height: 600px; overflow: hidden; }
-.loans-image         { grid-column: 1 / -1; grid-row: 5; max-height: 600px; overflow: hidden; }
-.contact-image       { grid-column: 1 / -1; grid-row: 6; max-height: 600px; overflow: hidden; }
+.accounts-image      { grid-column: 1 / -1; grid-row: 2; max-height: 675px; overflow: hidden; }
+.onlinebanking-image { grid-column: 1 / -1; grid-row: 3; max-height: 675px; overflow: hidden; }
+.security-image      { grid-column: 1 / -1; grid-row: 4; max-height: 675px; overflow: hidden; }
+.loans-image         { grid-column: 1 / -1; grid-row: 5; max-height: 675px; overflow: hidden; }
+.contact-image       { grid-column: 1 / -1; grid-row: 6; max-height: 675px; overflow: hidden; }
 
 
 .accounts-image img,
@@ -111,5 +111,5 @@ nav a:focus {
   .onlinebanking-image, .loans-image               { grid-column: 3 / span 5; }
 }
 
-/* Optional: ensure images don't overflow in odd cases */
+
 img { max-width: 100%; height: auto; }
