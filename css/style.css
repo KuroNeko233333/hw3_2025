@@ -36,7 +36,7 @@ nav a:focus {
 
 .container > :first-child {
   grid-column: 1 / -1;
-  background-image: url("images/header.jpg");
+  background-image: url("../images/header.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -104,7 +104,7 @@ nav a:focus {
 
 
   .accounts, .security, .contact { grid-column: 4 / span 3; }
-  .onlinebanking, .loans         { grid-column: 1 / span 3; }
+  .onlinebanking, .loans         { grid-column: 2 / span 3; }
 
  
   .accounts-image, .security-image, .contact-image { grid-column: 1 / span 5; }
